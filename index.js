@@ -10,7 +10,7 @@ const PORT = 4000;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.status(200).send("Hello");
+  res.status(200).send("Hello and please use the end points to achieve your results");
 });
 
 const __filename = fileURLToPath(import.meta.url);
